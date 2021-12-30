@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header-wrapper{
+    width: 1800px;
+    margin: 0 auto;
+    background-image: url("../img/designer_1.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.header{
+    width: 1400px;
+    height: 1103px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+nav{
+    display:flex;
+    padding-top: 40px;
+    justify-content: space-between;
+    text-align: center;
+}
+.logo{
+    width: 90px;
+}
+.nav-link{
+    font-size: 16px;
+    padding-left: 60px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #505F98;
+}
+.header-button{
+    width: 160px;
+    height: 26px;
+    font-size: 12px;
+    border: none;
+    background-color: #111B47;
+    color: white;
+}
+.welcome{
+    margin-top: 260px;
+}
+.welcome-p{
+    text-align: left;
+    width: 540px;
+}
+h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.welcome-description{
+    font-size: 18px;
+    color: #505F98;
+}
+.welcome-buttons{
+    margin-top: 69px;
+    text-align: left;
+}
+.purchase{
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 189px;
+    height: 36px;
+    background-color: #111B47;
+    color: white;
+    border: none;
+}
+.learn{
+    font-size: 16px;
+    font-weight: 500px;
+    width: 189px;
+    height: 36px;
+    background-color: white ;
+    border: #111B47 solid;
+}
+
+
